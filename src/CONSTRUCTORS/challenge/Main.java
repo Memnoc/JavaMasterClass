@@ -28,6 +28,5 @@ public class Main {
 //        Gianni
 //        gianni@email.com
 //        150.0
-        // test
     }
 }

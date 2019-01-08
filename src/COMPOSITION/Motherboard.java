@@ -8,6 +8,14 @@ public class Motherboard {
     private int cardSlots;
     private String bios;
 
+    public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
+        this.model = model;
+        this.manufacturer = manufacturer;
+        this.ramSlots = ramSlots;
+        this.cardSlots = cardSlots;
+        this.bios = bios;
+    }
+
     public void loadProgram (String programName) {
         System.out.println("Program " + programName + " is now loading...");
     }
@@ -49,14 +57,6 @@ public class Motherboard {
     }
 
     public void setBios(String bios) {
-        this.bios = bios;
-    }
-
-    public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
-        this.model = model;
-        this.manufacturer = manufacturer;
-        this.ramSlots = ramSlots;
-        this.cardSlots = cardSlots;
         this.bios = bios;
     }
 }

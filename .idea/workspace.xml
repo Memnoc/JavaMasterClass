@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d64f656a-34eb-4684-b083-199233d3558b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/Dimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/COMPOSITION/Resolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/COMPOSITION/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COMPOSITION/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,26 +27,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="description" value="2" />
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="description" value="551" />
-          <entry key="java" value="4496" />
-          <entry key="txt" value="79" />
+          <entry key="java" value="4768" />
+          <entry key="txt" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4496" />
-          <entry key="PLAIN_TEXT" value="630" />
+          <entry key="JAVA" value="4768" />
+          <entry key="PLAIN_TEXT" value="654" />
         </counts>
       </usages-collector>
     </session>
@@ -179,7 +174,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/COMPOSITION/PC.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -191,6 +186,15 @@
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/COMPOSITION/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -232,14 +236,15 @@
         <option value="$PROJECT_DIR$/src/COMPOSITION/Case.java" />
         <option value="$PROJECT_DIR$/src/COMPOSITION/Dimensions.java" />
         <option value="$PROJECT_DIR$/src/COMPOSITION/PC.java" />
+        <option value="$PROJECT_DIR$/src/COMPOSITION/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1027" />
+    <option name="x" value="1193" />
+    <option name="y" value="1223" />
+    <option name="width" value="1680" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,7 +279,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546877116986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546877697449" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
@@ -425,14 +430,20 @@
       <option name="project" value="LOCAL" />
       <updated>1545126828556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="composition - PC example">
+      <created>1546877153392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546877153393</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
+    <frame x="1060" y="1223" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18157615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +483,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="inheritance part 1 - ended" />
     <MESSAGE value="inheritance part 1 - ended (small updates)" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance part 1 - ended (small updates)" />
+    <MESSAGE value="composition - PC example" />
+    <option name="LAST_COMMIT_MESSAGE" value="composition - PC example" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CLASSES/Car.java">
@@ -729,6 +741,13 @@
             <element signature="e#489#490#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/COMPOSITION/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,8 @@ public class Printer {
     public Printer(int tonerLevel, int numberOfPages, boolean isDuplex) {
         if (tonerLevel > 0 && tonerLevel <=100) {
             this.tonerLevel = tonerLevel;
+        } else {
+            this.tonerLevel = -1;
         }
         this.numberOfPages = numberOfPages;
         this.isDuplex = isDuplex;

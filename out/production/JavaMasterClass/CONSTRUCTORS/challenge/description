@@ -1,5 +1,5 @@
 Create a new class VipCustomer
-It should have 3 fields: name, credit limit, email address
+It should have 3 fields: teamName, credit limit, email address
 create 3 constructors
 1st constructor: empty, should call the constructor with 3 parameters with default values
 2nd constructor: should pass on the 2 values it receives and add a default value for the 3rd
